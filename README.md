@@ -6,7 +6,7 @@ Este repositório reúne projetos full-stack, cada um na sua pasta:
 
 ## 📁 Projetos
 
-### `api` + `web` — Sistema de Saúde
+### `saude-api` + `saude-frontend` + `saude-dashboard` — Sistema de Saúde
 API REST em FastAPI para gerenciamento de pacientes e consultas médicas, com front-end correspondente.
 
 ### `catalogo-jogos` — GameShelf
