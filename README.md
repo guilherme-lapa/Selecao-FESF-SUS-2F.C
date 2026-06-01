@@ -1,6 +1,6 @@
 # Seleção FESF-SUS
 
-Portfólio para o 14º Processo Seletivo da FESF-SUS (Desenvolvedor Full-Stack Python/React Júnior).
+Portfólio para o 14º Processo Seletivo da FESF-SUS (Analista de Transformação Digital Júnior).
 
 Este repositório reúne dois projetos full-stack, cada um na sua pasta:
 
