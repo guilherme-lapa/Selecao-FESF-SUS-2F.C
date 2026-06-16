@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fonte-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  /* Gradiente de céu, do azul profundo ao claro, com leve movimento */
+  background: linear-gradient(160deg, #1e3a8a 0%, #3b82f6 55%, #93c5fd 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: white;
+}
+
+@keyframes flutuar {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animar-flutuar {
+  animation: flutuar 0.5s ease-out backwards;
+}
