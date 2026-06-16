@@ -23,6 +23,7 @@ Encurtador de links com estatísticas de acesso. Gera códigos aleatórios ou al
 Previsão do tempo por cidade, consumindo a API externa Open-Meteo. O back-end atua como intermediário, orquestrando geocoding e previsão sem necessidade de banco de dados:
 - **Back-end:** Python + FastAPI + httpx
 - **Front-end:** React + Next.js + TypeScript + Tailwind CSS
+- **Infra:** Docker + Docker Compose (back e front containerizados)
 
 Instruções de execução detalhadas estão no README dentro de cada projeto.
 
